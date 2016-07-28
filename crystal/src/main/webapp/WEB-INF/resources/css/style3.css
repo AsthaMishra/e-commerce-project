@@ -1,0 +1,57 @@
+@CHARSET "ISO-8859-1";
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img
+  {
+      width: 100%;
+  }
+
+    /* Remove the navbar's default rounded borders and increase the bottom margin */
+    .navbar {
+      margin-bottom: 0px;
+      border-radius: 0px;
+    }
+    
+    /* Remove the jumbotron's default bottom margin */
+     .carousel{
+	  width:100%;
+      position:absolute;
+	  left:0px;
+	  right:0px;
+    }
+ input[type=text] {
+    width: 930px;
+	height:60px;
+	size: 10px  10px;
+	margin-left:200px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 0px 0px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+.container{
+width: 60px;
+height:60px; 
+font-size:10px;
+margin-left:0px;
+  
+}
+
+btn-group{
+
+width:50px;
+height:10px;
+}
+.logo{
+margin-top:0px;
+margin-left:0px;
+position :absolute;
+width:20%;
+}
